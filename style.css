@@ -132,7 +132,7 @@ span {
 }
 
 .carrosel {
-  width: 77%;
+  width: 95%;
   height: 350px;
   padding: 2rem;
   border-bottom: 1px solid #ffffff96;
@@ -143,6 +143,7 @@ span {
 .carrosel ul {
   width: 100%;
   display: flex;
+  justify-content: center;
   gap: 20px;
   list-style: none;
 }
