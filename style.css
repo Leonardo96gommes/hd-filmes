@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .ctn-p {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -134,9 +134,9 @@ span {
 }
 
 .carrosel {
-  width: 95%;
+  width: 90%;
   height: 350px;
-  padding: 2rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #ffffff96;
   margin: 0 auto;
   overflow: hidden;
