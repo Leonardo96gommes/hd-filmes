@@ -45,8 +45,9 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 20px;
+  padding: 5px;
 }
 
 nav a:hover {
@@ -134,7 +135,7 @@ span {
 }
 
 .carrosel {
-  width: 90%;
+  width: 77%;
   height: 350px;
   padding-bottom: 2rem;
   border-bottom: 1px solid #ffffff96;
@@ -164,10 +165,6 @@ span {
 
 
 @media screen and (max-width: 720px) {
-  .body {
-    overflow-x: hidden;
-  }
-
   .ctn-p {
     width: 100%;
     display: flex;
@@ -190,14 +187,20 @@ span {
     height: 350px;
     overflow: hidden;
     margin: 0 auto;
-
-    border: 0px;
   }
 
   .carrosel ul {
     width: 100%;
     display: flex;
+    justify-content: start;
     list-style: none;
+  }
+
+  .img-w {
+    width: 250px;
+    height: 350px;
+    border: solid 1px #ffffff96;
+    cursor: pointer;
   }
 
   .carrosel li {
@@ -210,16 +213,22 @@ span {
       left: -0%;
     }
     20% {
-      left: -270px;
+      left: -260px;
     }
     30% {
-      left: -520px;
+      left: -500px;
     }
     40% {
-      left: -780px;
+      left: -750px;
     }
     50% {
+      left: -850px;
+    }
+    60% {
       left: -1100px;
+    }
+    70% {
+      left: -1380px;
     }
   }
 }
