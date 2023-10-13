@@ -135,8 +135,9 @@ span {
 }
 
 .carrosel {
-  width: 85%;
+  width: 88%;
   height: 350px;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #ffffff96;
   margin: 0 auto;
