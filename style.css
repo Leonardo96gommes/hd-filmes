@@ -204,7 +204,7 @@ span {
 
   .carrosel li {
     position: relative;
-    animation: slide 8s infinite ease-out;
+    animation: slide 10s infinite ease-out;
   }
 
   @keyframes slide {
