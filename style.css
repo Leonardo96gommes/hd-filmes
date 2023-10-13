@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .ctn-p {
-  width: 77%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
