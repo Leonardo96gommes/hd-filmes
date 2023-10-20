@@ -14,12 +14,17 @@ body {
   font-family: "Roboto";
 }
 
+.owl-carousel{
+  width: 100%;
+  max-width: 1350px;
+}
+
 
 .imagem-carousel{
   width: 100%;
-  max-width: 450px;
-  height: 400px;
-  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 250px;
+  height: 350px;
   border: solid 3px rgba(255, 255, 255, 0.5);
 }
 
@@ -94,7 +99,8 @@ nav a:hover {
 }
 
 .ctn-p {
-  width: 80%;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -147,5 +153,16 @@ span {
   text-decoration: underline;
   color: red;
   font-size: 17px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .img-w2 {
+    filter: brightness(1);
+    width: 165px;
+    height: 200px;
+    border: solid 3px #ffffff96;
+    cursor: pointer;
+  }
 }
 
