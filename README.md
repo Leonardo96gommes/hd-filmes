@@ -4,6 +4,8 @@ site de filmes
 
 Pagina feita para aprimorar meus conhecimentos
 
+![Imagem do projeto](./img/site-filme.png)
+
 [Você pode conferir como ficou o projeto aqui](https://leonardo96gommes.github.io/hd-filmes/)
 
 ## 🛠 Tecnologias
